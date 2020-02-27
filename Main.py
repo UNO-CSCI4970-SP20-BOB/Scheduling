@@ -34,5 +34,3 @@ y['2017':]
 
 y.plot(figsize=(15, 6))
 plt.show()
-
-# sjkfls
