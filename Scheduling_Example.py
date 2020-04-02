@@ -2,7 +2,11 @@ from pyomo.environ import *
 from pyomo.opt import SolverFactory
 import json
 
-# Define days (1 week)
+# ADAPTED FROM REFERENCE
+
+# POTENTIAL REWRITE INTO SCALA/ JAVA CONSTRAINT LIBRARY
+# MAY BE EASIER TO INTEGRATE WITH SPRING SYSTEM (JUST INCLUDE IT IN)
+
 days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
 # Enter shifts of each day
